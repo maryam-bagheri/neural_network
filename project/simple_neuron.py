@@ -14,7 +14,7 @@ class neuron:
             pass
         for e in range(self.epoch):
             for i,j in zip(x,y):
-                
+                #this needs a chage
                 ###Hebb way
                 self.w=self.w+i*j
     def test(self,x):
